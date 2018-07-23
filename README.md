@@ -26,6 +26,7 @@
 - ![Components](https://developers.google.com/earth-engine/images/Playground_diagram_v3_crop.png)
 - [Help](https://developers.google.com/earth-engine/), [Reference](https://developers.google.com/earth-engine/api_docs) & [Tutorials](https://developers.google.com/earth-engine/tutorials)
 - Connect to Examples repository: 
+  - https://code.earthengine.google.com/?accept_repo=users/gorelick/EE101
   - https://code.earthengine.google.com/?accept_repo=EE101-B
 - Create your own repository.
 
