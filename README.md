@@ -25,26 +25,26 @@
 - The interface: 
 - ![Components](https://developers.google.com/earth-engine/images/Playground_diagram_v3_crop.png)
 - [Help](https://developers.google.com/earth-engine/), [Reference](https://developers.google.com/earth-engine/api_docs) & [Tutorials](https://developers.google.com/earth-engine/tutorials)
-- Connect to Examples repository: 
-  - https://code.earthengine.google.com/?accept_repo=users/gorelick/EE101
+- **Connect** to Examples repository: 
   - https://code.earthengine.google.com/?accept_repo=EE101-B
-- Create your own repository.
+- **Create** your own repository: `New` >`Repository`
+  - Yes these are Git repositories! (Stored on Google's server)
 
 
 
-## Diving in
+## Diving in!
 
 ### 1 - Landsat Composite
 
-- Copy `1 - Landsat Composite ` to your repository (by click and drag)
+- **Copy** `1 - Landsat Composite ` to your repository (by click and drag) and open it
 
-- <u>Run script ant interact</u>
+- **<u>Run** script and interact</u>
 
   - Zoom map
   - Change Image symbology (Change bands to 5-4-3; stretch to 98%)
   - Move the map around: calculations on the fly
 
-- <u>Analyze script</u>
+- <u>Examine script</u>
 
   - Objects: 
     - Geometry feature (vector)
@@ -74,6 +74,8 @@
   - Add a new point geometry feature:
 
     Insert  `var geometry = ee.Geometry.Point([-78.861902,35.8760964])` before  `var landsat`...
+
+
 
 ### Adding images to your workspace
 
@@ -106,6 +108,8 @@
   - Search for Land Cover, view info for [GlobCover](https://code.earthengine.google.com/dataset/ESA/GLOBCOVER_L4_200901_200912_V2_3), get the Image ID (`ESA/GLOBCOVER_L4_200901_200912_V2_3 `)
   - `var globcov = ee.Image(ESA/GLOBCOVER_L4_200901_200912_V2_3)`
 
+
+
 ### Image Collections & filters
 
 - Filtering on time
@@ -113,9 +117,13 @@
 - Filtering bands
 - Reducers
 
+
+
 ### Image analysis
 
 - Derived images
+
+
 
 ### Feature Extraction
 
