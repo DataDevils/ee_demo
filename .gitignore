@@ -1,2 +1,4 @@
 notebooks/.ipynb_checkpoints/*
+notebooks/sandbox/*
 data/*.csv
+*.lnk
