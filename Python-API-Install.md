@@ -7,7 +7,7 @@
 #### 1. Create a new Conda environment and add packages
 
 * At the Conda prompt: 
-  * `conda create --name earthengine
+  * `conda create --name earthengine`
   * `activate earthengine`
   * `conda install -c conda-forge earthengine-api`
   * `conda install jupyter pandas matplotlib` (and other packages...)
