@@ -79,7 +79,7 @@
 
 ### Adding images to your workspace
 
-- Search for Elevation; View info for [*GTED2010: Global Multi-resolution Terrain Elevation Data 2010*](https://code.earthengine.google.com/dataset/USGS/GMTED2010)
+- Search for Elevation; View info for [*GMTED2010: Global Multi-resolution Terrain Elevation Data 2010*](https://code.earthengine.google.com/dataset/USGS/GMTED2010)
 
   - What is it's resolution? (what is an ArcSecond?)
   - What is its Image ID? (Note, it's an *Image* ID, not an *Image Collection* ID)
